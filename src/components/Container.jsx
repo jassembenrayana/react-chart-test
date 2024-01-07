@@ -33,12 +33,8 @@ const Container = () => {
 
   return (
     <div className="card border-success">
-      <div className="card-header">
-        <Header regenerateData={handleRegenerateData} />
-      </div>
-      <div className="card-body">
-        <Chart chartData={chartData} />
-      </div>
+      <Header regenerateData={handleRegenerateData} />
+      <Chart chartData={chartData} />
     </div>
   )
 }
