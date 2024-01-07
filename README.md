@@ -11,5 +11,5 @@ A chart Line with a button to regenerate the data inside of the chart.
 
 ## Getting Started
 
-npm install
-npm run dev
+- Run `npm install` to install dependencies.
+- Run `npm run dev` to start the development server.
